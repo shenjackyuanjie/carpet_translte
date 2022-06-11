@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "${mod_id}",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "${mod_name}",
+  "description": "",
   "authors": [
-    "Me!"
+    "shenjackyuanjie",
+    "Harveykang"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/shenjackyuanjie/carpet_translate",
+    "sources": "https://github.com/shenjackyuanjie/carpet_translate"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/${mod_id}/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "top.shenjack.carpet_translate.CarpetTranslate"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "${mod_id}.mixins.json"
   ],
 
   "depends": {

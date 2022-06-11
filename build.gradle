@@ -37,9 +37,10 @@ dependencies {
 }
 
 processResources {
-    exclude 'assets/mod_id'
+    // 资源文件占位符替换
+    exclude 'assets/@mod_id@'
     copy {
-        from 'src/main/resources/assets/mod_id'
+        from 'src/main/resources/assets/@mod_id@'
         into "build/resources/main/assets/${project.mod_id}"
     }
     filesMatching("fabric.mod.json") {

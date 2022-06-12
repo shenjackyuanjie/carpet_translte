@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.shenjack.carpet_translate.CarpetTranslate"
+      "top.shenjack.carpet_translate.CarpetTranslateMod"
     ]
   },
   "mixins": [

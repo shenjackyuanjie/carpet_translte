@@ -5,8 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class CarpetTranslateMod implements ModInitializer {
-
-    public static final String MOD_NAME = "CarpetTranslate";
+    public static final String MOD_NAME = "Carpet Translate";
     public static final Logger LOGGER = LogManager.getLogger(MOD_NAME);
 
     @Override

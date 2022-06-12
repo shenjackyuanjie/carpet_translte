@@ -75,7 +75,7 @@ tasks.withType(JavaCompile).configureEach {
 
 compileJava {
     // 绝绝子简单粗暴的编译前参数替换方案xwx
-    files('src/main/java/top/shenjack/carpet_translate/CarpetTranslate.java').forEach(file -> {
+    files('src/main/java/top/shenjack/carpet_translate/CarpetTranslateMod.java').forEach(file -> {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file))
             List<String> lines = new LinkedList<>()
